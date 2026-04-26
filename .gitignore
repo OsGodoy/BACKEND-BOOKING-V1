@@ -1,0 +1,45 @@
+# 🔐 ENV (CRÍTICO)
+.env
+.env.*
+!.env.example
+
+# 📦 Dependencias
+node_modules
+
+# 🧪 Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 🧹 Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🧠 IDEs / editores
+.vscode/
+.idea/
+
+# 🧪 Testing
+coverage/
+
+# ⚙️ Build / output
+dist/
+build/
+
+# 🔄 Cache
+.cache/
+.tmp/
+
+# 🐳 Docker (opcional)
+docker-compose.override.yml
+
+# 🔑 Archivos sensibles adicionales
+*.pem
+*.key
+*.crt
+
+# 📁 uploads (si manejas archivos)
+uploads/
